@@ -143,6 +143,7 @@ body {
     padding: 4em;
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .benefit {
@@ -219,3 +220,27 @@ body {
 #about-location p {
     line-height: 1.5em;
 }
+
+/* Event details container */
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+    max-width: 90%;
+    
+    
+}
+.detail img {
+    width: 70%;
+}
+
+
