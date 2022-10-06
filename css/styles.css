@@ -169,12 +169,8 @@ body {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
     margin-bottom: 1em;
 
-=======
-    margin-bottom: 1em;            
->>>>>>> d838e190cd5ebf3129b1a63890a5fdc677f92bb1
 }
 
 #benefit-1 {
@@ -274,28 +270,5 @@ body {
 }
 
 .detail img {
-<<<<<<< HEAD
     width: 650px;
 }
-=======
-    width: 70%;
-}
-
-.detail h3 {
-    margin-bottom: 1em;
-    font-size: 2em;
-    font-weight: 500;
-}
-
-#detail-1 h2 {
-    font-size: 2.85em;
-    font-weight: 700;
-}
-
-.detail-description {
-    width: 100%;
-    padding-left: 2em;
-}
-
-
->>>>>>> d838e190cd5ebf3129b1a63890a5fdc677f92bb1
