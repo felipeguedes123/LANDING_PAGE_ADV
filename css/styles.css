@@ -16,9 +16,10 @@
 body {
     padding-bottom: 500px;
 }
+
 /* Event form */
 #event-description {
-    background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../img/senior.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/senior.jpg);
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -27,6 +28,7 @@ body {
     align-items: center;
     color: var(--text-color);
 }
+
 #disclaimer h2,
 #disclaimer .about-adv {
     color: var(--primary);
@@ -53,10 +55,10 @@ body {
 #disclaimer p {
     font-size: 1.2;
     margin-bottom: .3em;
-}    
+}
 
 /* Botão */
-.btn-adv{
+.btn-adv {
     background-color: var(--primary);
     color: var(--text-color);
     outline: none;
@@ -64,13 +66,16 @@ body {
     margin: 30px;
     cursor: pointer;
     border-radius: 15px;
-    border: none;    
+    border: none;
     opacity: .8;
-    
+
 }
 
 .whats {
-    position: fixed; bottom: 30px; right: 30px; z-index: 9999;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
 }
 
 #subscription-form {
@@ -97,7 +102,7 @@ body {
     font-weight: bold;
 }
 
-.form-group input, 
+.form-group input,
 .form-group select {
     padding: 6px 8px;
     border-radius: 5px;
@@ -120,6 +125,7 @@ body {
 .btn:hover {
     opacity: 1;
 }
+
 .btn-adv:hover {
     opacity: 1;
 }
@@ -128,6 +134,7 @@ body {
 .imglogo {
     width: 200px;
 }
+
 /*  Benefits section */
 
 #key-benefits h2 {
@@ -144,12 +151,12 @@ body {
     padding: 4em;
     width: 80%;
     margin: 0 auto;
-    
+
 }
 
 .benefit {
     text-align: center;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 20%;
@@ -162,24 +169,31 @@ body {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
+    margin-bottom: 1em;
+
+=======
     margin-bottom: 1em;            
+>>>>>>> d838e190cd5ebf3129b1a63890a5fdc677f92bb1
 }
 
 #benefit-1 {
-    background-image: url(/img/aposentado.jpg);
+    background-image: url(../img/aposentado.jpg);
 }
+
 #benefit-2 {
-    background-image: url(/img/auxilio.jpg);
+    background-image: url(../img/auxilio.jpg);
 }
+
 #benefit-3 {
-    background-image: url(/img/beneficio.jpg);
+    background-image: url(../img/beneficio.jpg);
 }
 
 
 /* Event location */
 #location {
     height: 400px;
-    background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../img/adv\ \(8\).jpg);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/adv\ \(8\).jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -189,10 +203,12 @@ body {
     margin-bottom: 3em;
 }
 
-#address, #about-location {
+#address,
+#about-location {
     max-width: 30%;
 
 }
+
 #address {
     display: flex;
 }
@@ -207,6 +223,7 @@ body {
     text-align: center;
     font-size: 1.3em;
 }
+
 #about-location h3 {
     color: var(--primary);
     font-size: 2em;
@@ -223,7 +240,7 @@ body {
 #details {
     width: 80%;
     margin: 0 auto;
-    
+
 }
 
 .detail {
@@ -233,10 +250,34 @@ body {
     gap: 5%;
     margin-bottom: 4em;
     max-width: 90%;
-    
-    
+
+
 }
+
+
+
+.detail .texts {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.detail .title {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    padding-bottom: 10px
+}
+
+.detail .image {
+    width: 100%;
+}
+
 .detail img {
+<<<<<<< HEAD
+    width: 650px;
+}
+=======
     width: 70%;
 }
 
@@ -257,3 +298,4 @@ body {
 }
 
 
+>>>>>>> d838e190cd5ebf3129b1a63890a5fdc677f92bb1
