@@ -13,9 +13,7 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-bottom: 500px;
-}
+
 
 /* Event form */
 #event-description {
@@ -188,7 +186,7 @@ body {
 
 /* Event location */
 #location {
-    height: 400px;
+    height: 300px;
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/adv\ \(8\).jpg);
     background-position: center;
     background-size: cover;
@@ -238,6 +236,13 @@ body {
     margin: 0 auto;
 
 }
+#details h2 {
+    margin-bottom: 1.2em;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+    
+}
 
 .detail {
     display: flex;
@@ -272,3 +277,167 @@ body {
 .detail img {
     width: 650px;
 }
+
+/* Call to action section*/
+
+#cta {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/adv\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+
+}
+
+#cta h3 {
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+#cta .btn {
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    color: var(--secondary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;    
+}
+
+#footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#footer span {
+    font-weight: bold;
+}
+/* Mobile */
+@media (max-width: 450px) {
+    .btn-adv{
+        opacity: 1;
+        width: 84%;
+    }
+    .btn{
+        opacity: 1;
+    }
+    /* Event Form */
+    #event-description {
+        flex-direction: column;
+        height: auto;
+    }
+    #disclaimer {
+        padding: 2em;
+    }
+    #disclaimer h2 {
+        margin-bottom: .5em;
+    }
+    #subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+    /* Benefits section */
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+    .benefit {
+        width: 100%;
+    }
+    /* Location */
+    #location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+    #address {
+        order: 2;
+        flex-direction: column;
+        max-width: 100;
+
+    }
+    #address i {
+        margin: .3em 0;
+        
+    }
+    #about-location {
+        order: 1;
+        max-width: 100%;
+        
+    }
+    #about-location h3 {
+        margin-bottom: 0;
+    }
+    #about-location p {
+        display: none;
+    }
+
+    /* Event details container */
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+
+    }
+
+    .detail img {
+        width: 100%;
+    }
+    .detail-description {
+        padding: 0;
+        margin-bottom: 2em;
+                
+      
+    }
+
+   #detail-1 img {
+    order: 2;
+    
+   }
+  
+    
+    .image {
+        order: 2;
+    }
+  
+    #details .texts {
+        width: 100%;
+       
+        
+    }
+    .detail {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    /* call to action secton */
+    #cta {
+        text-align: center;
+    }
+    #cta .btn {
+        width: 80%;
+    }
+}
+
