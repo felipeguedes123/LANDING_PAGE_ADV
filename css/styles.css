@@ -127,6 +127,9 @@
 .btn-adv:hover {
     opacity: 1;
 }
+.btn-t:hover {
+    opacity: 1;
+}
 
 
 .imglogo {
@@ -199,7 +202,7 @@
 
 #address,
 #about-location {
-    max-width: 30%;
+    max-width: 45%;
 
 }
 
@@ -440,4 +443,40 @@
         width: 80%;
     }
 }
+/* Pagina Thanks */
+.main{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/adv10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
+.text-t{
+    font-size: 45px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.btn-t{
+    padding: 15px 55px;
+    background-color: var(--primary);
+    color: var(--text-color);
+    outline: none;   
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    opacity: .8;
+    text-decoration: none;
+    font-size: 18px;
+}

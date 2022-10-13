@@ -8,6 +8,8 @@
     <title>Filgueiras Ribeiro & Santos</title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css?v=2">
+    
+    
 
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,11 +23,11 @@
 
 <body>
     <header id="event-description">
-
-
-
+        
+        
+        
         <div id="disclaimer">
-            <h2><img class="imglogo" src="./img/logo.jpg" alt=""></h2>
+            <img class="imglogo" src="./img/logo.jpg" alt="">
             <p class="about-event">
                 PRECISA DE AJUDA PARA <b>CONSEGUIR SUA APOSENTADORIA OU BENEFÍCIO DO INSS?</b>
             </p>
@@ -39,18 +41,20 @@
         <div id="subscription-form">
             <p>Preencha o formulário e receba nossas atualizações.
             </p>
-            <form>
+            <form action="https://formsubmit.co/felipeguedes123.adm@gmail.com" method="post">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome" />
+                    <input type="text" name="name" placeholder="Digite seu nome" required/>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="Digite seu melhor e-mail" />
+                    <input type="email" name="email" placeholder="Digite seu melhor e-mail" required />
                 </div>
                 <div class="form-group">
                     <label for="phone">Telefone</label>
-                    <input type="text" name="phone" placeholder="Número de Whatsapp" />
+                    <input type="text" name="phone" placeholder="Número de Whatsapp" required />
                 </div>
                 <div class="form-group">
                     <label for="interest">Principal interesse</label>
